@@ -38,6 +38,16 @@ def valid_move? (board, index)
   end
 end
 
+def turn_count(board)
+  counter = 0
+  board.each do |pos|
+    if !pos === " "
+      counter += 1
+    end
+  end
+  counter
+end
+
 def turn (board)
   puts "Please enter 1-9:"
   input = gets.strip
@@ -50,12 +60,3 @@ def turn (board)
   end
 end
 
-def turn_count(board)
-  counter = 0
-  board.each do |pos|
-    if !pos === " "
-      counter += 1
-    end
-  end
-  counter
-end
