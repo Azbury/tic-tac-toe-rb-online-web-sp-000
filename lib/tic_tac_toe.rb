@@ -115,7 +115,7 @@ def play(board)
     if winnerpiece === nil
       puts "The game was a draw!"
     else
-      puts "The winner was #{winnerpiece}"
+      puts "Congratulations #{winnerpiece}!"
     end
   else
     turn(board)
