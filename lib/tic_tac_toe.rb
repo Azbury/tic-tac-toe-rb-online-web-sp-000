@@ -113,7 +113,7 @@ def play(board)
   if over?(board)
     winnerpiece = winner(board)
     if winnerpiece === nil
-      puts "The game was a draw!"
+      puts "Cat's Game!"
     else
       puts "Congratulations #{winnerpiece}!"
     end
