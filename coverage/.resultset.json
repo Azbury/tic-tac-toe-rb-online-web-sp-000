@@ -2,9 +2,18 @@
   "RSpec": {
     "coverage": {
       "/home/azbury/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
-
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1565528968
+    "timestamp": 1565529012
   }
 }
