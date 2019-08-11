@@ -117,5 +117,7 @@ def play(board)
     else
       puts "The winner was #{winnerpiece}"
     end
+  else
+    turn(board)
   end
 end
