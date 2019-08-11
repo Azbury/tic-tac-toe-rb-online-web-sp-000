@@ -99,3 +99,12 @@ def over?(board)
     false
   end
 end
+
+def winner(board)
+  winning_combo = won?(board)
+  if winning_combo === false
+    nil
+  else
+    board[winning_combo[0]]
+  end
+end
