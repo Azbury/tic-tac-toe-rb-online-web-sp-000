@@ -116,4 +116,5 @@ def play(board)
       puts "The game was a draw!"
     else
       puts 'The winner was #{winnerpiece}'
+    end
 end
