@@ -110,5 +110,10 @@ def winner(board)
 end
 
 def play(board)
-
+  if over?(board)
+    winnerpiece = winner(board)
+    if winnerpiece === nil
+      puts "The game was a draw!"
+    else
+      puts 'The winner was #{winnerpiece}'
 end
