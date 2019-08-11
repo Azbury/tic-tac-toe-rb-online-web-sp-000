@@ -48,6 +48,13 @@ def turn_count(board)
   counter
 end
 
+def current_player(board)
+  if turn_count(board) % 2 === 0
+    "X"
+  else
+    "O"
+  end
+end
 def turn (board)
   puts "Please enter 1-9:"
   input = gets.strip
